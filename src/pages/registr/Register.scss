@@ -1,0 +1,141 @@
+@import'../../scss/main.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300;1,500&display=swap');
+
+.all {
+    width: 100%;
+    height: 100vh;
+    // border: $border;
+    background-image: url(../../../public/4884273.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .container {
+        width: 1440px;
+        margin: 0 auto;
+
+        .Register {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 99.9vh;
+            // border: $border;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+                width: 40%;
+                height: 60%;
+                place-content: center;
+                color: white;
+                text-shadow: 0 1px 0 #000;
+
+                input {
+                    border-radius: 6px;
+                    padding: 20px 20px;
+                    width: 250px;
+                    height: 50px;
+                    outline: none;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+
+                }
+
+                button {
+                    width: 250px;
+                    height: 50px;
+                    background-color: blue;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 20px;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+                }
+
+                h2 {
+                    font-family: 'Montserrat', sans-serif;
+                }
+
+                --border-angle: 0turn; // For animation.
+                --main-bg: conic-gradient(from var(--border-angle),
+                    #213,
+                    #112 5%,
+                    #112 60%,
+                    #213 95%);
+
+                border: solid 5px transparent;
+                border-radius: 2em;
+                --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, rgb(0, 30, 255), rgb(6, 240, 18), rgb(255, 0, 0) 99%, transparent);
+
+                background: // padding-box clip this background in to the overall element except the border.
+                var(--main-bg) padding-box,
+                // border-box extends this background to the border space
+                var(--gradient-border) border-box,
+                // Duplicate main background to fill in behind the gradient border. You can remove this if you want the border to extend "outside" the box background.
+                var(--main-bg) border-box;
+
+                background-position: center center;
+
+                animation: bg-spin 3s linear infinite;
+
+
+            }
+
+
+
+            // .glow::before,
+            // .glow::after {
+            //     content: '';
+            //     position: absolute;
+            //     left: -5px;
+            //     top: -5px;
+            //     background: linear-gradient(45deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff, );
+            //     background-size: 450%;
+            //     width: calc(100% + 5px);
+            //     height: calc(100% + 5px);
+            //     // z-index: ;
+            //     animation: animate 20s linear infinite;
+
+            // }
+
+
+        }
+    }
+}
+
+@keyframes bg-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+// &:hover {
+//     animation-play-state: paused;
+// }
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+}
+
+
+// @keyframes animate {
+//     0% {
+//         background-position: 0 0;
+//     }
+
+//     50% {
+//         background-position: 400% 0;
+//     }
+
+//     100% {
+//         background-position: 0 0;
+//     }
+// }
+
+// .glow::after {
+//     filter: blur(30px);
+// }
