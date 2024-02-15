@@ -1,7 +1,7 @@
 import React from 'react'
 import { logocha } from '../assets'
 import { NavLink } from 'react-router-dom'
-
+// import './FooterandHeader.scss'
 const Header = () => {
     return (
         <div className='Header1'>

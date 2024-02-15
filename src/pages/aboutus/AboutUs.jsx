@@ -3,8 +3,8 @@ import './AboutUs.scss'
 import AboutUss from './AboutUss'
 const AboutUS = () => {
   return (
-   <>
-   <AboutUss/>
+    <>
+      <AboutUss />
       <div className='Home'>
         <div className='container'>
           <div className='home'>
@@ -40,7 +40,7 @@ const AboutUS = () => {
           </div>
         </div>
       </div>
-   </>
+    </>
   )
 }
 

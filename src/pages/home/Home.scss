@@ -13,16 +13,19 @@
 
     .container {
         width: 83%;
+        height: 100%;
         margin: 0 auto;
 
         .head {
             width: 100%;
+            height: 100%;
+            // border: $border;
 
             .Header {
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
-                height: 250px;
+                height: 25%;
                 // border: $border;
 
                 .Logo {
@@ -68,7 +71,7 @@
 
             .text {
                 width: 100%;
-                height: 608px;
+                height: 75%;
                 // border: $border;
 
                 .texts {
@@ -124,12 +127,12 @@
     margin-top: 50px;
     background-color: white;
     width: 100%;
-    height: 800px;
+    height: 90vh;
     // border: $border;
 
     .container {
         width: 83%;
-        // border: $border;
+        height: 100%;
         margin: 0 auto;
 
         .platforms {
@@ -137,7 +140,7 @@
             align-items: center;
             justify-content: center;
             width: 100%;
-            height: 796px;
+            height: 100%;
             // border: $border;
 
             .platformalar {
@@ -147,7 +150,6 @@
                 background-color: white;
                 width: 95%;
                 height: 95%;
-                // border: $border;
                 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
                 .DIV {
@@ -176,10 +178,11 @@
                         align-items: center;
                         justify-content: center;
                         gap: 10px;
-                        width: 250px;
-                        height: 200px;
+                        width: 20%;
+                        height: 20%;
 
                         // border: $border;
+
                         h2 {
                             font-family: 'Montserrat', sans-serif;
                         }
@@ -190,7 +193,7 @@
                         }
 
                         .eldone {
-                            width: 180px;
+                            width: 70%;
                             // height: 120px;
                         }
                     }
@@ -203,7 +206,7 @@
 
 .login {
     width: 100%;
-    height: 600px;
+    height: 70vh;
     // border: $border;
     background-image: url(../../../public/rm314-bb-18.jpg);
     background-repeat: no-repeat;
@@ -211,12 +214,13 @@
 
     .container {
         width: 83%;
+        height: 100%;
         margin: 0 auto;
 
         .Login {
             display: flex;
             width: 100%;
-            height: 599px;
+            height: 100%;
             // border: $border;
 
             .textlar1 {

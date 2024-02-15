@@ -14,7 +14,7 @@ const Register = () => {
               <h2>Please fill the form</h2>
               <input type="text" placeholder='Name...' />
               <input type="number" placeholder='Number...' />
-              <NavLink to='/'><button>Send</button></NavLink>
+              <NavLink to='/' className='navlink'><button>Send</button></NavLink>
             </div>
           </div>
         </div>
