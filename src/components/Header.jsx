@@ -11,7 +11,6 @@ const Header = () => {
             <div className='navbar'>
                 <ul>
                     <NavLink to='/'><li>Home</li></NavLink>
-                    <NavLink to='/contactus'><li>Contact Us</li></NavLink>
                     <NavLink to='/aboutus'><li>About Us</li></NavLink>
                     <NavLink to='/register'><li>Register</li></NavLink>
                 </ul>

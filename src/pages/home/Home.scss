@@ -12,7 +12,7 @@
 
 
     .container {
-        width: 83%;
+        max-width: 1440px;
         height: 100%;
         margin: 0 auto;
 
@@ -131,7 +131,7 @@
     // border: $border;
 
     .container {
-        width: 83%;
+        max-width: 1440px;
         height: 100%;
         margin: 0 auto;
 
@@ -211,14 +211,17 @@
     background-image: url(../../../public/rm314-bb-18.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    // background-color: #0499DD;
 
     .container {
-        width: 83%;
+        max-width: 1440px;
         height: 100%;
         margin: 0 auto;
 
         .Login {
             display: flex;
+            align-items: center;
+            justify-content: center;
             width: 100%;
             height: 100%;
             // border: $border;
@@ -227,7 +230,8 @@
                 display: flex;
                 justify-content: end;
                 align-items: center;
-                width: 50%;
+                width: 600px;
+                // background-color: #0499DD;
                 height: 100%;
 
                 h1 {
@@ -235,7 +239,8 @@
                     font-weight: 400;
                     color: white;
                     font-size: 36px;
-                    width: 77%;
+                    line-height: 50px;
+                    // width: 77%;
                 }
             }
 
@@ -243,7 +248,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 40%;
+                width: 35%;
                 height: 100%;
                 // border: $border;
 

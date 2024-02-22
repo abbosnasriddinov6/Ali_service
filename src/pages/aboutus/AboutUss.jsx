@@ -6,7 +6,7 @@ const AboutUss = () => {
     return (
         <div className='abouttruck'>
             <div className="container">
-              <div className='sunami'>
+                <div className='sunami'>
                     <div className='margin'></div>
                     <div className='Header2'>
                         <div className='llogoo'>
@@ -15,7 +15,6 @@ const AboutUss = () => {
                         <div className='navbarr'>
                             <ul>
                                 <NavLink to='/'><li>Home</li></NavLink>
-                                <NavLink to='/contactus'><li>Contact Us</li></NavLink>
                                 <NavLink to='/aboutus'><li>About Us</li></NavLink>
                                 <NavLink to='/register'><li>Register</li></NavLink>
                             </ul>
@@ -53,7 +52,7 @@ const AboutUss = () => {
                             <NavLink className='buton' to='/register'><button>Apply</button></NavLink>
                         </div>
                     </div>
-              </div>
+                </div>
             </div>
         </div>
     )
